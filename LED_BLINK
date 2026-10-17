@@ -1,0 +1,10 @@
+int led = 13;
+void setup(){
+pinmode(led,output);
+}
+void loop(){
+digitalwrite(led, HIGHT);
+delay(1000);
+digitalwrite(led, LOW);
+delay(1000);
+}
